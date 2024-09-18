@@ -4,3 +4,9 @@ push(element): Adds an element to the end of the array.
 pop(): Removes the last element from the array and returns it.
 unshift(element): Adds an element to the beginning of the array.
 shift(): Removes the first element from the array and returns it.
+slice(start, end): Creates a new array containing a portion of the original array.
+splice(start, deleteCount, ...items): Removes elements from the array and optionally inserts new elements.
+concat(...arrays): Creates a new array by joining existing arrays.
+join(separator): Converts an array to a string, separating elements with the specified separator.
+reverse(): Reverses the order of elements in the array.
+sort(compareFunction): Sorts the elements of the array.
