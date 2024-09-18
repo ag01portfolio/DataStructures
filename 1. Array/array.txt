@@ -1,0 +1,6 @@
+Arrays Common Methods:
+
+push(element): Adds an element to the end of the array.
+pop(): Removes the last element from the array and returns it.
+unshift(element): Adds an element to the beginning of the array.
+shift(): Removes the first element from the array and returns it.
