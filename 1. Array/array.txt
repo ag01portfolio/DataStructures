@@ -10,3 +10,9 @@ concat(...arrays): Creates a new array by joining existing arrays.
 join(separator): Converts an array to a string, separating elements with the specified separator.
 reverse(): Reverses the order of elements in the array.
 sort(compareFunction): Sorts the elements of the array.
+
+
+
+Dynamic Array [less control over memory] --> in js and py
+Static Array [more control over memory] --> which has fixed size c++ and java
+
