@@ -31,6 +31,10 @@ class MyArray {
 
     return item;
   }
+  insert(index, item) {
+    if (index < 0 || index > this.length) {
+      throw new Error("Index out of bounds");
+    }
 
   shiftItems(index) {
     for (let i = index; i < this.length - 1; i++) {
