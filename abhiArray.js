@@ -32,7 +32,8 @@ class MyArray {
     return item;
   }
   insert(index, item) {
-    if (index < 0 || index > this.length) {
+    if (index < 0 && index > this.length) {
+      if (index < 0 || index > this.length) {
       throw new Error("Index out of bounds");
     }
 
