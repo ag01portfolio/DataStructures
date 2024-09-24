@@ -23,7 +23,7 @@ var twoSum = function (nums, target) {
       }
     }
   }
-  // P2 = P1 - target
+  // P2 + P1 = target
 };
 
 twoSum([2, 7, 11, 15], 9);
