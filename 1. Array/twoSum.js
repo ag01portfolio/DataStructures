@@ -12,7 +12,7 @@ var twoSum = function (nums, target) {
   const l = nums.length;
   for (let i = 0; i < l; i++) {
     const p1 = nums[i];
-    // console.log("p1 ", p1);
+    console.log("p1 ", p1);
     // loop through all the items 1 to n - Pointer 2
     for (let j = 0; j < l; j++) {
       const p2 = nums[j];
